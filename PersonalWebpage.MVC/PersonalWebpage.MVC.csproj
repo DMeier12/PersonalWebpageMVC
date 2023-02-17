@@ -1,0 +1,123 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-PersonalWebpage.MVC-dea90ee9-ab73-4628-9553-c72fd528bef4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\scripts.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="_Archive\anymatch\index.d.ts" />
+    <Content Include="_Archive\anymatch\index.js" />
+    <Content Include="_Archive\anymatch\LICENSE" />
+    <Content Include="_Archive\anymatch\README.md" />
+    <Content Include="_Archive\argh\CHANGELOG.md" />
+    <Content Include="_Archive\argh\example\parse.js" />
+    <Content Include="_Archive\argh\index.js" />
+    <Content Include="_Archive\argh\LICENSE" />
+    <Content Include="_Archive\argh\README.md" />
+    <Content Include="_Archive\argh\test.js" />
+    <Content Include="_Archive\balanced-match\index.js" />
+    <Content Include="_Archive\balanced-match\LICENSE.md" />
+    <Content Include="_Archive\balanced-match\README.md" />
+    <Content Include="_Archive\binary-extensions\binary-extensions.json.d.ts" />
+    <Content Include="_Archive\binary-extensions\index.d.ts" />
+    <Content Include="_Archive\binary-extensions\index.js" />
+    <Content Include="_Archive\binary-extensions\license" />
+    <Content Include="_Archive\binary-extensions\readme.md" />
+    <Content Include="_Archive\bluebird\changelog.md" />
+    <Content Include="_Archive\bluebird\js\browser\bluebird.core.js" />
+    <Content Include="_Archive\bluebird\js\browser\bluebird.core.min.js" />
+    <Content Include="_Archive\bluebird\js\browser\bluebird.js" />
+    <Content Include="_Archive\bluebird\js\browser\bluebird.min.js" />
+    <Content Include="_Archive\bluebird\js\release\any.js" />
+    <Content Include="_Archive\bluebird\js\release\assert.js" />
+    <Content Include="_Archive\bluebird\js\release\async.js" />
+    <Content Include="_Archive\bluebird\js\release\bind.js" />
+    <Content Include="_Archive\bluebird\js\release\bluebird.js" />
+    <Content Include="_Archive\bluebird\js\release\call_get.js" />
+    <Content Include="_Archive\bluebird\js\release\cancel.js" />
+    <Content Include="_Archive\bluebird\js\release\catch_filter.js" />
+    <Content Include="_Archive\bluebird\js\release\context.js" />
+    <Content Include="_Archive\bluebird\js\release\debuggability.js" />
+    <Content Include="_Archive\bluebird\js\release\direct_resolve.js" />
+    <Content Include="_Archive\bluebird\js\release\each.js" />
+    <Content Include="_Archive\bluebird\js\release\errors.js" />
+    <Content Include="_Archive\bluebird\js\release\es5.js" />
+    <Content Include="_Archive\bluebird\js\release\filter.js" />
+    <Content Include="_Archive\bluebird\js\release\finally.js" />
+    <Content Include="_Archive\bluebird\js\release\generators.js" />
+    <Content Include="_Archive\bluebird\js\release\join.js" />
+    <Content Include="_Archive\bluebird\js\release\map.js" />
+    <Content Include="_Archive\bluebird\js\release\method.js" />
+    <Content Include="_Archive\bluebird\js\release\nodeback.js" />
+    <Content Include="_Archive\bluebird\js\release\nodeify.js" />
+    <Content Include="_Archive\bluebird\js\release\promise.js" />
+    <Content Include="_Archive\bluebird\js\release\promise_array.js" />
+    <Content Include="_Archive\bluebird\js\release\promisify.js" />
+    <Content Include="_Archive\bluebird\js\release\props.js" />
+    <Content Include="_Archive\bluebird\js\release\queue.js" />
+    <Content Include="_Archive\bluebird\js\release\race.js" />
+    <Content Include="_Archive\bluebird\js\release\reduce.js" />
+    <Content Include="_Archive\bluebird\js\release\schedule.js" />
+    <Content Include="_Archive\bluebird\js\release\settle.js" />
+    <Content Include="_Archive\bluebird\js\release\some.js" />
+    <Content Include="_Archive\bluebird\js\release\synchronous_inspection.js" />
+    <Content Include="_Archive\bluebird\js\release\thenables.js" />
+    <Content Include="_Archive\bluebird\js\release\timers.js" />
+    <Content Include="_Archive\bluebird\js\release\using.js" />
+    <Content Include="_Archive\bluebird\js\release\util.js" />
+    <Content Include="_Archive\bluebird\LICENSE" />
+    <Content Include="_Archive\bluebird\README.md" />
+    <Content Include="_Archive\brace-expansion\index.js" />
+    <Content Include="_Archive\brace-expansion\LICENSE" />
+    <Content Include="_Archive\brace-expansion\README.md" />
+    <Content Include="_Archive\braces\CHANGELOG.md" />
+    <Content Include="_Archive\braces\index.js" />
+    <Content Include="_Archive\braces\lib\compile.js" />
+    <Content Include="_Archive\braces\lib\constants.js" />
+    <Content Include="_Archive\braces\lib\expand.js" />
+    <Content Include="_Archive\braces\lib\parse.js" />
+    <Content Include="_Archive\braces\lib\stringify.js" />
+    <Content Include="_Archive\braces\lib\utils.js" />
+    <Content Include="_Archive\braces\LICENSE" />
+    <Content Include="_Archive\braces\README.md" />
+    <Content Include="_Archive\camelify\index.js" />
+    <Content Include="_Archive\camelify\LICENSE" />
+    <Content Include="_Archive\camelify\README.md" />
+    <Content Include="_Archive\camelify\test\test.js" />
+    <Content Include="_Archive\commander\index.js" />
+    <Content Include="_Archive\commander\Readme.md" />
+    <Content Include="_Archive\concat-map\example\map.js" />
+    <Content Include="_Archive\concat-map\index.js" />
+    <Content Include="_Archive\concat-map\LICENSE" />
+    <Content Include="_Archive\Dawson Meier Resume 2022.pdf" />
+    <Content Include="_Archive\index.html" />
+    <Content Include="_Archive\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\imgs\brevard.jpg" />
+    <None Include="wwwroot\imgs\image0.jpeg" />
+    <None Include="wwwroot\imgs\kelly-sikkema-VX0bsbyBxpM-unsplash.jpg" />
+    <None Include="wwwroot\js\scripts.js" />
+  </ItemGroup>
+
+</Project>
