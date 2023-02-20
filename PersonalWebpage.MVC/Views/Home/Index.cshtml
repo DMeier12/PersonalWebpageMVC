@@ -1,4 +1,5 @@
-﻿@{
+﻿@model PersonalWebpage.MVC.Models.ContactViewModel
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -37,7 +38,15 @@
     <div class="about__box about__box-1">
         <h1>About me</h1>
         <p>Hi! I'm Dawson Meier, a web developer from Kansas City, Missouri.</p>
-        <p> I love building websites and applications and  my goal has always been to build outstanding products that look great and function even better! </p>
+        <p> I love building websites and applications and  my goal has always been to build outstanding products that look great and function even better!
+            
+            
+            I have learned to become a front end developer with skills in C#, including .Net Core MVC, and Razer. Javascript including jQuery, responsive web development, boot strap,
+            and react. With exeprience with the tools: Azure Data Studio, Visual Studio 2022, Visual Studio Code, and SSMS.
+           
+            
+            My work experience includes: Quiktrip from Feb 2020 to June 2021, where I learned teamwork, communication, and critical thinking.
+            I worked as a League of Legends coah for 2 years from 2021 to 2022, where I learned to teach and learn with a group effectively.</p>
     </div>
 
     <div class="about__box about__box-2">
@@ -54,28 +63,26 @@
             <img src="~/imgs/kelly-sikkema-VX0bsbyBxpM-unsplash.jpg" alt="Storefront Image">
         </div>
         <div class="projects__box projects__box-2">
-            <h1>PH <span></span></h1>
+            <h1>Still under construction <span></span></h1>
             <P> </P>
 
             <h2>Tech Used</h2>
-            <p>PH</p>
-
-
+            <p>Under Construction</p>
         </div>
     </div>
 
 
     <div class="project__2 easeIn">
         <div class="projects__box project__2-box-1">
-            <h1>Placeholder <span></span></h1>
+            <h1>Under Construction <span></span></h1>
             <P></P>
             <h2>Tech Used</h2>
-            <p>PH</p>
+            <p>Under Constrcuction</p>
 
             <div class="button-box">
-                <a href="" target="blank" class="btn__demo">Demo</a>
-                <a href="" class="btn__demo" target="blank">Project documentation</a>
-                <a href="" class="btn__demo" target="blank">Github</a>
+                <!--<a href="" target="blank" class="btn__demo">Demo</a>
+                //<a href="" class="btn__demo" target="blank">Project documentation</a>
+                //<a href="" class="btn__demo" target="blank">Github</a>-->
             </div>
 
         </div>
@@ -93,14 +100,14 @@
         </div>
 
         <div class="projects__box project__3-box-2">
-            <h1>PH <span></span></h1>
-            <P>PH</P>
+            <h1>Under Construction <span></span></h1>
+            <P></P>
             <h2>Tech Used</h2>
-            <p>PH</p>
+            <p>Under construction</p>
 
             <div class="button-box">
-                <a href="" target="blank" class="btn__demo">Demo</a>
-                <a href="" target="blank" class="btn__demo">Github</a>
+               <!-- <a href="" target="blank" class="btn__demo">Demo</a>
+                <a href="" target="blank" class="btn__demo">Github</a>-->
             </div>
         </div>
     </div>
@@ -113,17 +120,17 @@
             <P>A c# .net console application game that is a spiritual recreation of a Dungeons and Dragons campaign I have created.. There are iconic features recreated from the original game such as character creation (customizable name, race, class), with some extra features such as customization of your build as you journey.</P>
             <h2>Tech Used</h2>
             <p>C#</p>
-            <a href="" target="blank" class="btn__demo">Github</a>
+            <a href="https://github.com/DMeier12/DungeonApp" target="blank" class="btn__demo">Github</a>
 
         </div>
 
         <div class="projects__box project__4-box-2">
-            <img src="~/imgs/brevard.jpg" alt="Molten Core Project Logo">
+            <img src="~/imgs/brevard.jpg" alt="Brevard Map">
         </div>
     </div>
 
 
-    <div class="project__5 easeIn">
+    <!-- <div class="project__5 easeIn">
         <div class="projects__box project__5-box-1">
             <img src="~/imgs/kelly-sikkema-VX0bsbyBxpM-unsplash.jpg" alt="Freelance Project 1 Banner Image">
             <img src="~/imgs/image0.jpeg" alt="Freelance Project 1 Banner Image Mobile" class="proj5-mobile-img">
@@ -140,18 +147,78 @@
                 <a href="" target="blank" class="btn__demo">Github</a>
             </div>
         </div>
-    </div>
-
+    </div>-->
+ 
 </section><!--end projects -->
+<section class="links container easeIn " id="Links"> 
+    <div class="links__title">
+        <h1>These are the classmates I worked with through my course.</h1>
+    </div>
+    <div class="links__box">
+            <div class ="links__box links__linksimg">
+                <img src="~/imgs/nick_picture.jpg" alt="Links profile image 1" />
+            </div>
+            <div class ="links__box links__linkstext">
+                <h1>Nick Sachau</h1>
+                <p> Nick Sachau is a strong developer with loves in and outside of development. He excells in JS and Razer.</p>
+                <a href="http:nickthedev.net" target="blank" class="btn__demo">Personal Site</a>
+                <a href="https://github.com/Nick-Sachau" target="blank" class="btn__demo">Github</a>
+                <a href="https://www.linkedin.com/in/nick-sachau-6a5210212/" target="blank" class="btn__demo">Linkedin</a>
+           </div>
+    </div>
+        <div class="links__box">
+            <div class ="links__box links__linkstext">
+                <h1>Jesse Galloway</h1>
+                <p> Jesse Galloway was previously a Nurse, specializing in long-term-care. His interest in coding began asa hobby, and after a 12 year career, he decided to make it his full time job.</p>
+                <a href="" target="blank" class="btn__demo">Personal Site</a>
+                <a href="" target="blank" class="btn__demo">Github</a>
+                <a href="https://www.linkedin.com/in/jesse-galloway-02b082261/" target="blank" class="btn__demo">Linkedin</a>
+           </div>
+            <div class ="links__box links__linksimg">
+                <img src="~/imgs/jesse_img.jpg" alt="Links profile image 1" />            
+            </div>
+    </div>
+   
+</section>
 <!--start Contact Section-->
 <section class="contact container easeIn" id="Contact">
     <div class="contact__title">
         <h1>I'd love to hear from you</h1>
         <p>I'm always looking for new and exciting projects to work on and new people to meet!</p>
     </div>
-   <!--<a href="mailto: dawson.a.meier@gmail.com" class="btn__demo">Say Hello!</a>-->
+         <div class="col-lg-6">
+
+                   <form asp-action="Contact" class="php-email-form">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input asp-for="Name" class="form-control" placeholder="Name" id="name" value=""/>
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <input asp-for="Email" class="form-control" id="email" placeholder="Email" value=""/>
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input asp-for="Subject" class="form-control" id="subject" placeholder="Subject" value=""/>
+                            <span asp-validation-for="Subject" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea asp-for="Message" class="form-control" rows="5" placeholder="Message" value=""></textarea>
+                            <span asp-validation-for="Message" class="text-danger"></span>
+                        </div>
+                        <div class="text-center mt-4 form-group">
+                            <input type="submit" value="Say Hello!" class="btn btn__demo" />
+                        </div>
+                    </form>
+                </div> 
+
+   
 </section><!--end Contact Section-->
 
           <!-- 1.appsettings.json, 2.create contact view model, 3. add iconfiguration field to home controller, 4. create contact get action, 5. generate view from action, razer view, -->
           <!-- creat contact view,-->
           <!-- contact view model, above public class contact view model, [keyless]-->
+
