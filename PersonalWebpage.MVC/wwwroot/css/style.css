@@ -671,7 +671,7 @@ body {
   .contact .btn__demo {
     margin-bottom: 10rem;
     text-align: center;
-    width: 10%;
+    width: 50%;
     font-weight: 600;
     border: 2px solid navy;
     padding: .25rem .25rem;
@@ -679,7 +679,7 @@ body {
     font-size: 1.75rem; }
     @media only screen and (max-width: 46.875em) {
       .contact .btn__demo {
-        width: 20%; } }
+        width: 100%; } }
     .contact .btn__demo:hover {
       background-color: rgba(0, 0, 128, 0.25);
       text-decoration: none;

@@ -1,6 +1,8 @@
-﻿@{
+﻿@model PersonalWebpage.MVC.Models.ContactViewModel
+@{
     ViewData["Title"] = "Home Page";
 }
+
 <section class="intro easeIn-slow">
     <div class="intro__container">
         <h1 class="intro__start">Hi, my name is</h1>
@@ -184,7 +186,36 @@
         <h1>I'd love to hear from you</h1>
         <p>I'm always looking for new and exciting projects to work on and new people to meet!</p>
     </div>
-   <!--<a href="mailto: dawson.a.meier@gmail.com" class="btn__demo">Say Hello!</a>-->
+    <  <div class="col-lg-6">
+
+                   <form asp-action="Contact" class="php-email-form">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input asp-for="Name" class="form-control" placeholder="Name" id="name" value=""/>
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <input asp-for="Email" class="form-control" id="email" placeholder="Email" value=""/>
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input asp-for="Subject" class="form-control" id="subject" placeholder="Subject" value=""/>
+                            <span asp-validation-for="Subject" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea asp-for="Message" class="form-control" rows="5" placeholder="Message" value=""></textarea>
+                            <span asp-validation-for="Message" class="text-danger"></span>
+                        </div>
+                        <div class="text-center mt-4 form-group">
+                            <input type="submit" value="Say Hello!" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div> 
+
+   
 </section><!--end Contact Section-->
 
           <!-- 1.appsettings.json, 2.create contact view model, 3. add iconfiguration field to home controller, 4. create contact get action, 5. generate view from action, razer view, -->

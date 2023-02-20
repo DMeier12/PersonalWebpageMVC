@@ -2,10 +2,11 @@
 
 namespace PersonalWebpage.MVC.Models
 {
-    public class ContactViewModel 
+    public class ContactViewModel
     {
         [Required(ErrorMessage = "*Name is required")]
-        public string Name { get; set;}
+
+        public string Name { get; set; }
 
         [Required(ErrorMessage = "*Email is required")]
         [DataType(DataType.EmailAddress)]
@@ -17,5 +18,9 @@ namespace PersonalWebpage.MVC.Models
         [DataType(DataType.MultilineText)]
         public string Message { get; set; }
 
+        public void SendEmail() { }
     }
 }
+
+      
+
