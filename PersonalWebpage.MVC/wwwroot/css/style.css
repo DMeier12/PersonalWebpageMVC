@@ -19,18 +19,21 @@ body {
   line-height: 1.4; }
 
 .header {
-  padding: 0 5rem; }
-  .header__nav {
+    padding: 0 5rem;
+}
+.header__nav {
     margin-top: 2.5rem;
     margin-right: 1rem;
     display: flex;
-    align-content: center; }
-  .header__nav-ol {
+    align-content: center;
+}
+.header__nav-ol {
     display: flex;
     justify-content: flex-end;
     font-size: 1.35rem;
     list-style: none;
-    align-items: center; }
+    align-items: center;
+}
   .header__nav-item {
     padding: 1.2rem 1rem;
     letter-spacing: .25rem; }
